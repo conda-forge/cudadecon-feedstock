@@ -20,6 +20,7 @@ requirements:
     - {{ compiler('cuda') }}
     - cmake
     - make  # [not win]
+    - ninja  # [win]
     - libgomp  # [linux]
   host:
     - boost-cpp
