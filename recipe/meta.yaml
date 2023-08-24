@@ -25,6 +25,7 @@ requirements:
     - boost-cpp
     - libtiff
     - fftw
+    - libcufft-dev      # [(cuda_compiler_version or "").startswith("12")]
   run:
     - boost-cpp
 
