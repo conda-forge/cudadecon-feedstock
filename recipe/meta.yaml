@@ -30,6 +30,7 @@ requirements:
     - libboost-devel
     - libtiff
     - fftw
+    - libcufft-dev      # [(cuda_compiler_version or "").startswith("12")]
   run:
 
 test:
