@@ -10,7 +10,7 @@ source:
   sha256: c489c346f5b53bf384176ab3c1e6d82b71ae8e8a18e1365fd7a7177a35800442
 
 build:
-  number: 2
+  number: 3
   skip: True  # [osx or (cuda_compiler_version in ('None', 'undefined'))]
 
 requirements:
