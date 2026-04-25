@@ -15,7 +15,7 @@ cxx_compiler:
 fftw:
 - '3'
 libboost_devel:
-- '1.88'
+- '1.90'
 libtiff:
 - '4.7'
 target_platform:
